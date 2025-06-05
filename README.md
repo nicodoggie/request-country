@@ -1,4 +1,4 @@
-# request-country [![NPM version](https://badge.fury.io/js/request-country.svg)](https://badge.fury.io/js/request-country)
+# @nicodoggie/request-country [![npm version](https://badge.fury.io/js/@nicodoggie%2Frequest-country.svg)](https://badge.fury.io/js/@nicodoggie%2Frequest-country)
 
 Get 2-letter country code from http request in nodejs.
 
@@ -12,7 +12,7 @@ npm i request-country
 
 ```javascript
 var http = require('http');
-var requestCountry = require('request-country');
+var requestCountry = require('@nicodoggierequest-country');
 var server = http.createServer(function(req, res) {
   console.log(requestCountry(req));
   // If it cannot detect country code from request ip,
